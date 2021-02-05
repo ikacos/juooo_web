@@ -1,0 +1,70 @@
+.show_style {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  max-width: 600px;
+  height: 100vh;
+  z-index: 2;
+  background-color:#FEFEFE;
+  .shoe_top{
+    width: 100%;
+    background-color:#FEFEFE;
+    // z-index: 9999999999;
+  }
+  .am-tabs-tab-bar-wrap {
+    width: 80%;
+  }
+  .occlusion {
+    position: absolute;
+    right: 0px;
+    top: 45px;
+    background-color: white;
+    height: 6.6vh;
+    width: 22%;
+    z-index: 2;
+    span {
+      font-size: 15px;
+      height:6.8vh;
+      line-height: 6vh;
+
+    }
+  }
+  .show_bottom{
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    //  justify-content: flex-start;
+        // align-items: flex-start;
+        // display:-webkit-flex;
+        // justify-content:flex-start;
+    :nth-child(odd){
+      margin-right: 1%;
+     
+    }
+  }
+  .drawer_style{
+    // z-index: 2;
+    height: 100vh;
+    width: 100%;
+    .my-drawer {
+      height: 100vh;
+    width: 100%;
+      // position: relative;
+      // overflow:hidden;
+      // -webkit-overflow-scrolling: touch;
+    
+    }
+    .my-drawer .am-drawer-sidebar {
+      background-color: #fff;
+      overflow: auto;
+      -webkit-overflow-scrolling: touch;
+    }
+    // .my-drawer .am-drawer-sidebar .am-list {
+    //   width: 300px;
+    //   padding: 0;
+    // }
+    .am-drawer-draghandle{
+      right: -12px;
+    }
+  }
+}

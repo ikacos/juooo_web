@@ -1,0 +1,66 @@
+.ticket_style {
+  .ticket_top {
+    // background: inherit;
+    // -webkit-filter: blur(5px);
+    // -moz-filter: blur(5px);
+    // -ms-filter: blur(5px);
+    // -o-filter: blur(5px);
+    // filter: blur(5px);
+    // filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius=4, MakeShadow=false);
+  }
+
+  .ticket_card {
+    // background: inherit;
+    // -webkit-filter: blur(5px);
+    // -moz-filter: blur(5px);
+    // -ms-filter: blur(5px);
+    // -o-filter: blur(5px);
+    // filter: blur(5px);
+    // filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius=4, MakeShadow=false);
+    .card_outer {
+      position: relative;
+      display: block;
+      :before {
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        filter: blur(5px);
+        z-index: -1;
+      }
+
+      height: 28vh;
+      display: flex;
+      img {
+        width: 40%;
+        border-radius: 5px;
+      }
+      .card_innter {
+        margin-left: 4%;
+        display: flex;
+        flex-wrap: wrap;
+        text-align: left;
+        :last-child {
+          margin-top: 13vh;
+          color: #ff6743;
+          font-size: 20px;
+        }
+      }
+    }
+  }
+  .card_bottom {
+    border-top: 1px #f2f2f2 solid;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    .am-button-primary {
+      background-color: #ff833a;
+      border-radius: 30px;
+      width: 200px;
+      height: 5vh;
+      line-height: 5vh;
+      margin-right: -30%;
+    }
+  }
+}

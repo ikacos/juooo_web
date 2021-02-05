@@ -1,0 +1,60 @@
+
+.block_style {
+  width: 49.5%;
+  margin-bottom: 1%;
+  .am-card {
+    width: 100%;
+  }
+  .am-card-header {
+    padding: 0 !important;
+  }
+  
+  .blockcard_body{
+    padding: 0 !important;
+  }
+  .card_img {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    height: 34vh;
+    width: 100%;
+  }
+  .blockcard_body {
+    display: flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+    span div {
+      
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box; //作为弹性伸缩盒子模型显示。
+        -webkit-box-orient: vertical; //设置伸缩盒子的子元素排列方式--从上到下垂直排列
+        -webkit-line-clamp: 2; //显示的行
+      img {
+        width: 32px;
+        padding-top: 5%;
+      }
+    }
+    :nth-child(3) {
+      font-size: 5px;
+      color: #666666c4;
+    }
+    :nth-child(4){
+      margin-left: -1%;
+      display: flex;
+      color: #ff6743;
+      font-size: 17px;
+      a{
+        font-size: 10px;
+      color: #aaa5a5c4;
+      }
+    }
+
+    span {
+      text-align: left;
+      margin-left: 4%;
+      font-size: 15px;
+      margin-bottom: 5%;
+      line-height: 15px;
+    }
+  }
+}

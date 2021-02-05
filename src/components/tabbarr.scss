@@ -1,0 +1,24 @@
+.tabbar_style{
+  position:fixed;
+  bottom: 0px;
+  left: 0px;
+  // height: 100vh;
+  width: 100%;
+  z-index: 1;
+
+    .am-tab-bar::-webkit-scrollbar {
+        display: none;
+      }
+      #tab-bar.demo {
+        display: flex;
+        flex-direction: column;
+      }
+      #tab-bar .demoName {
+        height: 400px;
+      }
+      #tab-bar .demo-preview-item .am-tab-bar {
+        background-color: white;
+      }
+    
+    }
+      

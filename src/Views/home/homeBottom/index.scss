@@ -1,0 +1,32 @@
+.homebottom_style{
+  background-color:#FEFEFE;
+    // display: flex;
+    .xunhui_style{
+      text-align: left;
+        font-size: 18px;
+        color: #232323;
+        font-weight: 700;
+      }
+      .homebottom_bottom{
+        display: flex;
+        flex-wrap: wrap;
+        :nth-child(odd){
+          margin-right: 1%;
+         
+        }
+        // justify-content: flex-start;
+        // align-items: flex-start;
+        // display:-webkit-flex;
+        // justify-content:flex-start;
+        
+
+      }
+      .list-view-section-body{
+        display: flex;
+        flex-wrap: wrap;
+        :nth-child(odd){
+          margin-right: 1%;
+         
+        }
+      }
+}
